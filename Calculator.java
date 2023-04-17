@@ -10,7 +10,7 @@ class Main {
         Scanner input = new Scanner(System.in);
 
         // User entering the operator
-        System.out.println("Enter the operator: ");
+        System.out.println("Enter the operator (+, -, /, * ): ");
         operators = input.next().charAt(0);
 
         //user enters the First number
@@ -30,7 +30,7 @@ class Main {
                 break;
 
             // Subtraction Operation
-            case '_':
+            case '-':
                 output = num1 - num2;
                 System.out.println(num1 + "-" + num2 + "=" + output);
                 break;
