@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="59c04cb4-54d5-44ac-9300-316b6657ba1b" name="Changes" comment="arun project structure" />
+    <list default="true" id="59c04cb4-54d5-44ac-9300-316b6657ba1b" name="Changes" comment="unversion">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Loops and Conditions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Loops and Conditions/Loops and Conditions.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Loops and Conditions/src/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loops_and_Conditions/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Loops and Conditions/src/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loops_and_Conditions/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Loops and Conditions/src/test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loops_and_Conditions/Test3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Loops and Conditions/src/test4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loops_and_Conditions/Test4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Loops and Conditions/src/test5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loops_and_Conditions/Test5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Loops and Conditions/src/test6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loops_and_Conditions/Test6.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,13 +29,39 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "dart.analysis.tool.window.visible": "false"
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "C:/Users/User/IdeaProjects/Learn-Coding-and-Cloud-services/src"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\Learn-Coding-and-Cloud-services\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\Learn-Coding-and-Cloud-services\Loops and Conditions" />
       <recent name="C:\Users\ARUNB\Documents\Learn-Coding-and-Cloud-services\src" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.Switch_Loop">
+    <configuration name="Foreach_Loop" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Loops_and_Conditions.Test5" />
+      <module name="Learn-Coding-and-Cloud-services" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Switch_Loop" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Loops_and_Conditions.Test6" />
+      <module name="Learn-Coding-and-Cloud-services" />
+      <option name="PROGRAM_PARAMETERS" value="2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Switch_Loop" />
+      <item itemvalue="Application.Foreach_Loop" />
+    </list>
   </component>
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="arun project structure">
@@ -37,7 +79,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Assignment2" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

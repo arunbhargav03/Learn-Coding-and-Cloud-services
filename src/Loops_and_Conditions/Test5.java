@@ -1,5 +1,7 @@
+package Loops_and_Conditions;
+
 //foreach statement
-public class test5 {
+public class Test5 {
     public static void main(String[] args){
         String[] cars = {"Volvo", "BMW", "Audi", "Lexus"};
         for (String car : cars) {
