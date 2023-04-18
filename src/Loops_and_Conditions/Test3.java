@@ -1,5 +1,7 @@
+package Loops_and_Conditions;
+
 //while statement
-public class test3 {
+public class Test3 {
     public static void main(String[] args){
         int i = 0;
     //  while(i<10) {
