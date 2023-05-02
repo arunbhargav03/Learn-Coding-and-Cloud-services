@@ -74,55 +74,59 @@ public class DllDemo {
             head = DllDemo.demo.createNewList();
             DllDemo.myDoubleLinkedLists.put(name, head);
         }else{
-            System.out.println("\n********* Manage MENU *********");
-            System.out.println("\n1.Insert Next");
-            System.out.println("\n2.Insert In Beginning");
-            System.out.println("\n3.Insert At A  Particular Pos");
-            System.out.println("\n4.Delete At a Pos");
-            System.out.println("\n5.Reverse the list");
-            System.out.println("\n6.Length of list");
-            System.out.println("\n7.Display list");
-            System.out.println("\n8.Back to previous menu.");
-            System.out.println("\nEnter ur choice : ");
-            String value;
-            int choice=in.nextInt();
-            switch(choice) {
+            int choice=0;
+            do{
+                System.out.println("\n********* Manage MENU *********");
+                System.out.println("\n1.Insert Next");
+                System.out.println("\n2.Insert In Beginning");
+                System.out.println("\n3.Insert At A  Particular Pos");
+                System.out.println("\n4.Delete At a Pos");
+                System.out.println("\n5.Reverse the list");
+                System.out.println("\n6.Length of list");
+                System.out.println("\n7.Display list");
+                System.out.println("\n8.Back to previous menu.");
+                System.out.println("\nEnter ur choice : ");
+                String value;
+                choice=in.nextInt();
+                switch(choice) {
 
-                case 1:
-                    System.out.println("\nEnter the value ");
-                    value = in.next();
-                    DllDemo.myDoubleLinkedLists.put(name, DllDemo.demo.insertNext(value, head));
-                    break;
-                case 2:
-                    System.out.println("\nEnter the value ");
-                    value = in.next();
-                    DllDemo.myDoubleLinkedLists.put(name, DllDemo.demo.insertInBegining(value, head));
-                    break;
-                case 3:
-                    System.out.println("\nEnter the value ");
-                    value = in.next();
-                    System.out.println("\nEnter the position ");
-                    DllDemo.myDoubleLinkedLists.put(name,DllDemo.demo.insertAtPosition(value, in.nextInt(), head));
-                    break;
-                case 4:
-                    System.out.println("\nEnter the position to delete");
-                    DllDemo.myDoubleLinkedLists.put(name, demo.deleteAtPosition(in.nextInt(), head));
-                    break;
-                case 5:
-                    DllDemo.myDoubleLinkedLists.put(name,demo.reverse_old(head));
-                    break;
-                case 6:
-                    System.out.println("Length of "+name+" is : "+DllDemo.demo.calcLength(head));
-                    break;
-                case 7:
-                    DllDemo.demo.display(head);
-                    break;
-                case 8:
-                    break;
-                default: System.out.println("\n Wrong Choice!");
-                    break;
+                    case 1:
+                        System.out.println("\nEnter the value ");
+                        value = in.next();
+                        DllDemo.myDoubleLinkedLists.put(name, DllDemo.demo.insertNext(value, head));
+                        break;
+                    case 2:
+                        System.out.println("\nEnter the value ");
+                        value = in.next();
+                        DllDemo.myDoubleLinkedLists.put(name, DllDemo.demo.insertInBegining(value, head));
+                        break;
+                    case 3:
+                        System.out.println("\nEnter the value ");
+                        value = in.next();
+                        System.out.println("\nEnter the position ");
+                        DllDemo.myDoubleLinkedLists.put(name,DllDemo.demo.insertAtPosition(value, in.nextInt(), head));
+                        break;
+                    case 4:
+                        System.out.println("\nEnter the position to delete");
+                        DllDemo.myDoubleLinkedLists.put(name, demo.deleteAtPosition(in.nextInt(), head));
+                        break;
+                    case 5:
+                        DllDemo.myDoubleLinkedLists.put(name,demo.reverse_old(head));
+                        break;
+                    case 6:
+                        System.out.println("Length of "+name+" is : "+DllDemo.demo.calcLength(head));
+                        break;
+                    case 7:
+                        DllDemo.demo.display(head);
+                        break;
+                    case 8:
+                        break;
+                    default: System.out.println("\n Wrong Choice!");
+                        break;
 
-            }
+                }
+            }while(choice!=8);
+
         }
 
     }
