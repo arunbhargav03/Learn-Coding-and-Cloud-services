@@ -17,7 +17,7 @@ public class DllDemo {
             System.out.println("\n3.Insert At A  Particular Pos");
             System.out.println("\n4.Delete At a Pos");
             System.out.println("\n5.Length");
-            //System.out.println("\n6.Reverse");
+            System.out.println("\n6.Reverse");
             System.out.println("\n7.Display");
             System.out.println("\n8.EXIT");
             System.out.println("\nenter ur choice : ");
@@ -53,6 +53,9 @@ public class DllDemo {
                 case 4:
                     System.out.println("\nenter the position to delete");
                     demo.deleteAtPosition(in.nextInt());
+                    break;
+                case 6:
+                    demo.reverse_old();
                     break;
 
                 case 8: System.exit(0);
@@ -211,6 +214,25 @@ public class DllDemo {
             else if(temp.next==null){
                 temp.prev.next=null;
             }
+        }
+    }
+
+    public void reverse_old() {
+
+        DllNode lastNode = head;
+        while(lastNode.next!=null){
+            lastNode=lastNode.next;
+        }
+        DllNode temp = null;
+
+        while (lastNode != null) {
+            temp = lastNode.next;
+            lastNode.next = lastNode.prev;
+            lastNode.prev = temp;
+            lastNode = lastNode.next;
+        }
+        while(head.prev!=null){
+            head=head.prev;
         }
     }
 
